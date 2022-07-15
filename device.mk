@@ -40,6 +40,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
+
+PRODUCT_COPY_FILES += \
+    packages/apps/RealmeParts/init/parts.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/parts.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/realme/bitra
