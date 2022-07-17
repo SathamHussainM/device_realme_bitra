@@ -34,11 +34,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilt/modules/,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
 
-# Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
+# Overlays
+PRODUCT_PACKAGES += \
+    OPlusFrameworksResTarget \
+    OPlusSettingsProviderResTarget \
+    OPlusSystemUIResTarget
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
