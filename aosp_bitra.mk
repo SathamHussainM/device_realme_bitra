@@ -30,6 +30,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 EXTRA_UDFPS_ANIMATIONS := true
 IS_PHONE := true
 
+# Lawnchair
+FORCE_LAWNCHAIR := true
+
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
