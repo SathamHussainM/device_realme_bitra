@@ -43,3 +43,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/realme/bitra
+
+# Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
