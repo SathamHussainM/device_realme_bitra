@@ -35,7 +35,7 @@ ELIXIR_BUILD_TYPE := OFFICIAL
 ELIXIR_MAINTAINER := SathamHussainM
 
 # Lawnchair
-FORCE_LAWNCHAIR := true
+#FORCE_LAWNCHAIR := true
 
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
