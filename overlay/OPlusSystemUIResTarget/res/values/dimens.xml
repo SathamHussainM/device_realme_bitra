@@ -16,12 +16,6 @@
 */
 -->
 <resources>
-    <!-- The width/height of the unlock icon view on keyguard. -->
-    <dimen name="keyguard_indication_margin_bottom">102dp</dimen>
-
-    <!-- The text size for battery level -->
-    <dimen name="battery_level_text_size">05sp</dimen>
-
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">02px</dimen>
 
