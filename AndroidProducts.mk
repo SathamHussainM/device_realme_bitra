@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_bitra.mk
+    $(LOCAL_DIR)/evolution_bitra.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_bitra-user \
-    aosp_bitra-userdebug \
-    aosp_bitra-eng
+    evolution_bitra-user \
+    evolution_bitra-userdebug \
+    evolution_bitra-eng

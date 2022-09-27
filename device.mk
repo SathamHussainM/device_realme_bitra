@@ -41,7 +41,8 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusExtrasResTarget \
     OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    OPlusSettingsResTarget
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
