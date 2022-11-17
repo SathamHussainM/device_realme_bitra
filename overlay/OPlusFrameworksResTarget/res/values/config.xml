@@ -47,4 +47,11 @@
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
 
+     <!-- See AmbientSensor.AmbientColorTemperatureSensor.
+         The ambient color temperature sensor name. -->
+    <string name="config_displayWhiteBalanceColorTemperatureSensorName" translatable="false">qti.sensor.rgb_rear</string>
+
+     <!-- The type of the light sensor to be used by the display framework for things like
+         auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
+    <string name="config_displayLightSensorType">android.sensor.light</string>
 </resources>
