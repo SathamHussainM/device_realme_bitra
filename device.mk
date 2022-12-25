@@ -24,7 +24,6 @@ $(call inherit-product, vendor/realme/bitra/bitra-vendor.mk)
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Audio
-TARGET_HAS_AUDIO_LVIMFS := true
 TARGET_USES_BLUETOOTH_LE_AUDIO := true
 
 PRODUCT_COPY_FILES += \
@@ -63,9 +62,3 @@ PRODUCT_SOONG_NAMESPACES += \
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     RemovePackages
-
-# VNDK
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v30/arm/arch-arm-armv7-a-neon/shared/vndk-core/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui-v30.so \
-    prebuilts/vndk/v30/arm/arch-arm-armv7-a-neon/shared/vndk-sp/android.hardware.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.common-V1-ndk_platform.so \
-    prebuilts/vndk/v30/arm/arch-arm-armv7-a-neon/shared/vndk-sp/android.hardware.graphics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common-V1-ndk_platform.so
