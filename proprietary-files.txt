@@ -189,3 +189,4 @@ odm/firmware/aw8697_realme_tune_RTP_162_175Hz.bin
 
 # Wifi
 odm/etc/wifi/bdwlan.elf
+odm/etc/wifi/bin_version
