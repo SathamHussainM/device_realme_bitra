@@ -27,6 +27,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Gapps
+ANCIENT_GAPPS := true
+
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
