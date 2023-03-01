@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_bitra.mk
+    $(LOCAL_DIR)/ancient_bitra.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_bitra-user \
-    evolution_bitra-userdebug \
-    evolution_bitra-eng
+    ancient_bitra-user \
+    ancient_bitra-userdebug \
+    ancient_bitra-eng
