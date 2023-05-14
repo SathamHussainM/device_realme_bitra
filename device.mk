@@ -55,6 +55,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# Init
+PRODUCT_PACKAGES += \
+    init.oplus.perf.rc
+
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
