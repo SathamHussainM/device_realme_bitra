@@ -27,7 +27,8 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_EXCLUDES_AUDIOFX := true
 
-# Gapps
+# AncientOS
+ANCIENT_OFFICIAL := true
 ANCIENT_GAPPS := true
 
 # Inherit from device
