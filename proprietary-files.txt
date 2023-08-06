@@ -93,6 +93,7 @@ odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/hi846
 odm/etc/camera/config/imx471
+odm/etc/camera/config/oplus_camera_algo_switch_config
 odm/etc/camera/config/oplus_camera_aps_config
 odm/etc/camera/config/oplus_camera_config
 odm/etc/camera/config/ov02b
@@ -164,7 +165,6 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
-
 
 # Charger
 odm/firmware/fastchg/136730/charging_thermal_config_default.txt
