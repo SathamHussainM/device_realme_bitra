@@ -25,7 +25,7 @@
     <color name="config_udfpsColor">#ffffe6</color>
 
     <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
-    <integer name="config_udfpsEnrollProgressBar" translatable="false">109</integer>
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">99</integer>
 
     <!-- Udfps vendor code -->
     <integer name="config_udfps_vendor_code">0</integer>
